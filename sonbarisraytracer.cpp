@@ -330,7 +330,7 @@ int main()
 {
     // Sample usage for reading an XML scene file
     parser::Scene scene;
-    scene.loadFromXml("inputs/monkey.xml");
+    scene.loadFromXml("inputs/low_poly.xml");
 
 	for (auto& cam:scene.cameras){
     int width = cam.image_width;
